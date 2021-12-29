@@ -1,0 +1,19 @@
+name: ItemEditor[PTK]
+main: PTK\ItemEditor\Main
+api: [2.0.0, 3.0.0]
+version: 0.1
+author: PTK-KienPham
+commands:
+ iname:
+  description: Đổi Tên Cho Item!
+  permission: itemeditor.iname
+ addlore:
+  description: Set lore Cho Item!
+  permission: itemeditor.addlore
+permissions:
+  itemeditor.iname:
+    description: 
+    default: op
+  itemeditor.addlore:
+    description: 
+    default: op

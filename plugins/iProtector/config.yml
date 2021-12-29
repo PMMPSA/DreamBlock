@@ -1,0 +1,31 @@
+# Config file for iProtector by LDX;
+
+# Settings for unprotected areas in worlds without specific settings:
+Default:
+
+  # Keep players from getting hurt?
+  God: true
+
+  # Keep players from editing the world?
+  Edit: false
+
+  # Keep players from touching blocks and activating things like chests?
+  Touch: false
+
+# Settings for unprotected areas in individual worlds:
+Worlds:
+
+  Hub:
+
+    # Keep players from getting hurt?
+    God: True
+
+    # Keep players from editing the world?
+    Edit: false
+
+    # Keep players from touching blocks and activating things like chests?
+    Touch: false
+  sb
+    God: True
+    Edit: True
+    Touch: True

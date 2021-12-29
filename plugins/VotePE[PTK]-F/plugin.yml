@@ -1,0 +1,25 @@
+name: VotePE[PTK]
+main: PTK\VotePE\Main
+version: 1.0
+api: [1.12.0, 2.0.0]
+author: PTK-KienPham
+commands:
+  vote:
+    usage: "/vote"
+    description: "Vote Cho Máy Chủ Tại bit.do/tmk-vote."
+    permission: votepe.command.vote
+permissions:
+  votepe:
+    default: false
+    description: "Allows access to all VotePE features."
+    children:
+      votepe.command:
+        default: false
+        description: "Allows access to all VotePE commands."
+        children:
+          votepe.command.vote:
+            default: true
+            description: "Allows access to using the vote command."
+          votepe.command.reload:
+            default: op
+            description: "Allows access to the vote reload subcommand."

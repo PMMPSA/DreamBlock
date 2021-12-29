@@ -1,0 +1,46 @@
+{
+    "isAFK": false,
+    "isGod": false,
+    "homes": {
+        "khoa": [
+            1212,
+            69,
+            -99,
+            "sb",
+            209,
+            24
+        ],
+        "1": [
+            1212,
+            69,
+            -473,
+            "sb",
+            287,
+            21
+        ],
+        "zz": [
+            -836.9626,
+            69,
+            663.7862,
+            "sb",
+            322,
+            -3
+        ],
+        "giau": [
+            1209.2264,
+            201,
+            -471.004,
+            "sb",
+            85,
+            76
+        ]
+    },
+    "isMuted": false,
+    "mutedUntil": null,
+    "nick": null,
+    "ptCommands": false,
+    "ptChatMacros": false,
+    "isPvPEnabled": true,
+    "isUnlimitedEnabled": false,
+    "isVanished": false
+}

@@ -1,0 +1,66 @@
+TerminatorVN Crash Dump Sun Dec 10 12:39:46 ALMT 2017
+
+Error: Declaration of PTK\ChatSystem\Main::onCommand(pocketmine\command\CommandSender $sender, pocketmine\command\Command $command, string $label, array $args): bool must be compatible with pocketmine\command\CommandExecutor::onCommand(pocketmine\command\CommandSender $sender, pocketmine\command\Command $command, $label, array $args)
+File: /plugins/ChatSystem[PTK]-F/src/PTK/ChatSystem/Main
+Line: 20
+Type: E_COMPILE_ERROR
+
+THIS CRASH WAS CAUSED BY A PLUGIN
+
+Code:
+[11] use pocketmine\command\CommandSender;
+[12] use pocketmine\command\ConsoleCommandSender;
+[13] use pocketmine\plugin\PluginBase;
+[14] use pocketmine\Player;
+[15] use pocketmine\event\Listener;
+[16] use pocketmine\event\player\PlayerChatEvent;
+[17] use pocketmine\utils\TextFormat as TF;
+[18] use pocketmine\utils\Config;
+[19] 
+[20] class Main extends PluginBase implements Listener {
+[21] 
+[22]   /** @var Config $bannedWords */
+[23]   private $bannedWords;
+[24]   /** @var Config $lang */
+[25]   public $lang;
+[26]   
+[27]   public function translateColors(string $msg): string {
+[28]     return str_replace("&", "§", $msg);
+[29]   }
+[30]   
+
+Backtrace:
+#0 (): pocketmine\Server->crashDump(boolean)
+
+TerminatorVN version: 0000000000000000000000000000000000000000 [Protocol 113; API 3.0.1]
+uname -a: Windows NT ALIKUXAC 6.3 build 9600 (Windows Server 2012 R2 Standard Edition) AMD64
+PHP version: 7.0.2
+Zend version: 3.0.0
+OS : WINNT, win
+
+Server uptime: 1 seconds
+Number of loaded worlds: 0
+Players online: 0/20
+
+Loaded plugins:
+AdminFun 1.0.0 by hoyinm14mc for API(s) 1.12.0, 1.13.0, 2.0.0
+AntiServerStop 1.1 by paetti for API(s) 1.0.0, 2.0.0, 3.0.0, 3.0.1, 3.1.0, 3.0.0-ALPHA1, 4.0.0, 5.0.0, 3.0.0-ALPHA6
+Broadcaster 1.16 by EvolSoft for API(s) 1.12.0
+CalculatorPE 1.0.0 by Vaivez66 for API(s) 1.12.0
+CmdSnooper 1.2.0 by HotshotHD & CodeRed2019 for API(s) 1.13.0, 2.0.0, 3.0.0, 3.0.0-ALPHA5
+EasierTime 1.2 by Ad5001 for API(s) 2.0.0
+EconomyAPI 2.0.9 by onebone for API(s) 2.0.0
+iProtector 3.1b by LDX for API(s) 1.9.0, 3.0.0-ALPHA7
+ItemCasePE 1.0.8 by aliuly for API(s) 1.10.0, 1.13.0
+KillChat 1.0.2.MOD by Array for API(s) 1.9.0, 2.0.0
+MOTDShuffle 1.1.0 by TheDeibo for API(s) 3.0.0-ALPHA9
+SignModifier 1.0.0 by wolfdale for API(s) 1.3.1
+SimpleAuth 1.8.1 by PocketMine Team, shoghicp, awzaw for API(s) 2.0.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2, 3.0.0-ALPHA3, 3.0.0-ALPHA4, 3.0.0-ALPHA5
+SimpleAuthHelper 2.0.1 by aliuly for API(s) 1.12.0
+Titler 0.1.0 by Niekert for API(s) 3.0.0, 3.0.0-ALPHA5, 3.0.0-ALPHA6, 3.0.0-ALPHA7, 3.0.1
+WorldProtect 2.2.0 by aliuly for API(s) 1.10.0, 1.12.0, 3.0.0-ALPHA6
+am_PlayerSize  by emanuele0204 for API(s) 2.0.0, 2.1.0, 3.0.0APLHA1, 3.0.0
+AutoInv[PTK] 0.1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+AutoRestartSystem[PTK] 0.1 by PTK-KienPham for API(s) 1.10.0, 2.0.0, 3.0.0
+AWL[PTK] 1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+BuyEc[PTK] 3 by  for API(s) 2.0.0, 3.0.0

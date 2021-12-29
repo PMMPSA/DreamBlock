@@ -1,0 +1,45 @@
+# Configuration file for StatsPE
+
+# Supported Languages:
+# If you are changing language packs, delete messages.ini after setting to your preferred language.
+# English (English) = eng,
+# German (Deutsch) = deu,
+# Romanian (Romana) = rom,
+# Dutch (Nederlands) = nld,
+# Russian (Russia) = rus
+Language: eng
+
+# Enable Stats: true/false
+Stats:
+  Online: true
+  FirstJoin: true
+  LastJoin: true
+  JoinCount: true
+  KillCount: false
+  K/D: true
+  DeathCount: false
+  KickCount: false
+  OnlineTime: true
+  BlockBreakCount: false
+  BlockPlaceCount: false
+  ChatCount: false
+  FishCount: false
+  BedEnterCount: false
+  EatCount: false
+  CraftCount: false
+  DroppedItems: false
+
+# Enable/Disable the Auto-Updater Feature.
+Auto-Update: true
+Shutdown-Message: "Restarting Server due to a software update!"
+
+# Set data provider for StatsPE
+# Available Providers: MySQL, JSON
+Provider: JSON
+
+# MySQL Settings (Only configure this if you are going to use MySQL data provider)
+MySQL:
+  host: "MySQL.example.net:3306"
+  user: "ExampleUser"
+  password: "12345678"
+  database: "StatsPE"

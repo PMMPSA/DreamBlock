@@ -1,0 +1,12 @@
+name: am_PlayerSize
+author: emanuele0204
+api: ["2.0.0", "2.1.0", "3.0.0APLHA1", "3.0.0"]
+main: emanuele0204\PlayerSize\PlayerSize
+
+permissions:
+ playersize:
+  children:
+   playersize.command:
+    children:
+     playersize.command.size:
+      default: op

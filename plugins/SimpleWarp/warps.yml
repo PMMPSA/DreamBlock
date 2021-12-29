@@ -1,0 +1,44 @@
+---
+sw:
+  x: 127.597076
+  "y": 5.000000
+  z: 128.617920
+  level: sw
+  public: true
+  metadata: []
+sb:
+  x: 89.476800
+  "y": 71.000000
+  z: 90.498000
+  level: sb
+  public: true
+  metadata: []
+shop:
+  x: 0.703000
+  "y": 65.000000
+  z: 0.587300
+  level: Shop
+  public: true
+  metadata: []
+Shop:
+  x: 0.703000
+  "y": 65.000000
+  z: 0.587300
+  level: Shop
+  public: true
+  metadata: []
+crates:
+  x: 373.326700
+  "y": 6.000000
+  z: 503.524000
+  level: Hub
+  public: true
+  metadata: []
+Crates:
+  x: 373.326700
+  "y": 6.000000
+  z: 503.524000
+  level: Hub
+  public: true
+  metadata: []
+...

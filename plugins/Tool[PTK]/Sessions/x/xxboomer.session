@@ -1,0 +1,24 @@
+{
+    "isAFK": false,
+    "isGod": false,
+    "homes": {
+        "op": [
+            -637.3,
+            38,
+            -73.538,
+            "sb",
+            307,
+            82
+        ]
+    },
+    "isMuted": false,
+    "mutedUntil": null,
+    "nick": null,
+    "ptCommands": {
+        "278": "ce ec Explosive 3"
+    },
+    "ptChatMacros": false,
+    "isPvPEnabled": true,
+    "isUnlimitedEnabled": false,
+    "isVanished": true
+}

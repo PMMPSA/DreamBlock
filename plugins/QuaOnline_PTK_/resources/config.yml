@@ -1,0 +1,6 @@
+---
+## Lời nhắn tham gia lần đầu. Phần này các bạn tùy ý sửa tên item nhé
+first_join: "§f[§l§eQuà Online§r§f]: Ngày đầu tiên Online bạn nhận được §eKiếm Kim Cương§f với phù phép: §esắc nét"
+## Lời nhắn tham gia mỗi ngày. {player} hiển thị tên người chơi, {count} hiển thị số ngày online liên tiếp
+daily_join: "§f[§l§eQuà Online§r§f]: §a§l{player}§r§f bạn đã Online liên tiếp §a{count}§f ngày! "
+...

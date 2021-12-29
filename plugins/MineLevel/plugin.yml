@@ -1,0 +1,5 @@
+name: MineLV
+main: ktplus\Main
+api: [3.0.0, 2.0.0]
+author: ktplus
+version: 0.1

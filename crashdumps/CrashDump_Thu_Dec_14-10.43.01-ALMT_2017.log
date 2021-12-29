@@ -1,0 +1,90 @@
+TerminatorVN Crash Dump Thu Dec 14 10:43:01 ALMT 2017
+
+Error: syntax error, unexpected '*', expecting function (T_FUNCTION)
+File: /plugins/MineLV/src/ktplus/Main
+Line: 88
+Type: notice
+
+THIS CRASH WAS CAUSED BY A PLUGIN
+
+Code:
+[79]         $p = $ev->getPlayer();
+[80]         $name = $p->getName();
+[81]         $p->setDisplayName("§b[§aCấp §e".$this->getCurrentLevel($p)."§b]§f ".$p->getName());
+[82]     }
+[83] 
+[84]     public function onCommand(){
+[85] 
+[86] 
+[87]     
+[88]     }*/
+[89]     
+[90]     
+[91] /*    public function onHeld(PlayerItemHeldEvent $ev){
+[92]         
+[93]     }
+[94]     
+[95]     public function onTouch(PlayerInteractEvent $ev){
+[96]         
+[97]     } 
+[98]     */
+
+Backtrace:
+#0 (): spl_autoload_call(string ktplus\Main)
+#1 /src/pocketmine/plugin/FolderPluginLoader(76): class_exists(string ktplus\Main, boolean 1)
+#2 /src/pocketmine/plugin/PluginManager(159): pocketmine\plugin\FolderPluginLoader->loadPlugin(string C:\Users\Administrator\Downloads\TerminatorVN[PTK]-F\plugins\MineLV)
+#3 /src/pocketmine/plugin/PluginManager(346): pocketmine\plugin\PluginManager->loadPlugin(string C:\Users\Administrator\Downloads\TerminatorVN[PTK]-F\plugins\MineLV, array Array())
+#4 /src/pocketmine/Server(1889): pocketmine\plugin\PluginManager->loadPlugins(string C:\Users\Administrator\Downloads\TerminatorVN[PTK]-F\plugins\)
+#5 /src/pocketmine/PocketMine(492): pocketmine\Server->__construct(BaseClassLoader object, pocketmine\utils\MainLogger object, string C:\Users\Administrator\Downloads\TerminatorVN[PTK]-F\, string C:\Users\Administrator\Downloads\TerminatorVN[PTK]-F\, string C:\Users\Administrator\Downloads\TerminatorVN[PTK]-F\plugins\)
+
+TerminatorVN version: 0000000000000000000000000000000000000000 [Protocol 113; API 3.0.1]
+uname -a: Windows NT WIN-VCQUKKDO8FH 6.3 build 9600 (Windows Server 2012 R2 Datacenter Edition) AMD64
+PHP version: 7.0.2
+Zend version: 3.0.0
+OS : WINNT, win
+
+Server uptime: 1 seconds
+Number of loaded worlds: 0
+Players online: 0/20
+
+Loaded plugins:
+AdminFun 1.0.0 by hoyinm14mc for API(s) 1.12.0, 1.13.0, 2.0.0
+AntiServerStop 1.1 by paetti for API(s) 1.0.0, 2.0.0, 3.0.0, 3.0.1, 3.1.0, 3.0.0-ALPHA1, 4.0.0, 5.0.0, 3.0.0-ALPHA6
+Broadcaster 1.16 by EvolSoft for API(s) 1.12.0
+CalculatorPE 1.0.0 by Vaivez66 for API(s) 1.12.0
+CmdSnooper 1.2.0 by HotshotHD & CodeRed2019 for API(s) 1.13.0, 2.0.0, 3.0.0, 3.0.0-ALPHA5
+EasierTime 1.2 by Ad5001 for API(s) 2.0.0
+EconomyAPI 2.0.9 by onebone for API(s) 2.0.0
+iProtector 3.1b by LDX for API(s) 1.9.0, 3.0.0-ALPHA7
+KillChat 1.0.2.MOD by Array for API(s) 1.9.0, 2.0.0
+MOTDShuffle 1.1.0 by TheDeibo for API(s) 3.0.0-ALPHA9
+SignModifier 1.0.0 by wolfdale for API(s) 1.3.1
+SimpleAuth 1.8.1 by PocketMine Team, shoghicp, awzaw for API(s) 2.0.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2, 3.0.0-ALPHA3, 3.0.0-ALPHA4, 3.0.0-ALPHA5
+SimpleAuthHelper 2.0.1 by aliuly for API(s) 1.12.0
+Titler 0.1.0 by Niekert for API(s) 3.0.0, 3.0.0-ALPHA5, 3.0.0-ALPHA6, 3.0.0-ALPHA7, 3.0.1
+WorldProtect 2.2.0 by aliuly for API(s) 1.10.0, 1.12.0, 3.0.0-ALPHA6
+am_PlayerSize  by emanuele0204 for API(s) 2.0.0, 2.1.0, 3.0.0APLHA1, 3.0.0
+AutoInv[PTK] 0.1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+AutoRestartSystem[PTK] 0.1 by PTK-KienPham for API(s) 1.10.0, 2.0.0, 3.0.0
+AWL[PTK] 1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+BuyEc[PTK] 3 by  for API(s) 2.0.0, 3.0.0
+ChatSystem[PTK] 1.6 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+ChatToolsPro 1.2 by paetti for API(s) 1.0.0, 2.0.0, 3.0.0, 3.0.0-ALPHA, 3.0.0-ALPHA1, 4.0.0, 5.0.0
+CommandBlocker 1.5.5 by Thunder33345 for API(s) 2.0.0
+CONSOLEChat 1.0.0 by TheNewHEROBRINE for API(s) 2.0.0
+Crates[PTK] 0.1 by PTK-KienPham for API(s) 3.0.0, 2.1.0, 2.0.0
+CustomAlerts 1.6 by EvolSoft for API(s) 1.12.0, 3.0.0
+DF[PTK] 0..1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+Dial[PTK] 0.3.1 by PTK-KienPham for API(s) 2.0.0
+DonRac[PTK] 2 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+EconomyJob 2.0.4 by KienPham for API(s) 1.0.0, 2.0.0
+Feed[PTK] 1 by  for API(s) 2.0.0
+FlyText[PTK] 1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+FactionsPro 1.0 rewrite by PTK-KienPham by Array for API(s) 1.14.0, 2.0.0
+HotBar[PTK] 1.5.0 by KienPham for API(s) 1.13.0, 2.0.0
+Idea_Aro 1 by PVHB for API(s) 2.0.0
+Info[PTK] 2 by PTK-KienPham for API(s) 2.0.0
+ItemCloud 1.1 by KienPham for API(s) 1.4.0, 2.0.0
+ItemEditor[PTK] 0.1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+MagicWE 0.2.6 by thebigsmileXD for API(s) 1.13.0, 2.0.0
+ManyWorlds 2.1.0 by aliuly for API(s) 2.0.0

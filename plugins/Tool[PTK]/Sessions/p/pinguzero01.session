@@ -1,0 +1,62 @@
+{
+    "isAFK": false,
+    "isGod": false,
+    "homes": {
+        "tr": [
+            452.806,
+            40,
+            545.3051,
+            "Hub",
+            300,
+            19
+        ],
+        "t": [
+            117.6126,
+            4,
+            113.913,
+            "Hub",
+            306,
+            7
+        ],
+        "i": [
+            453.1465,
+            4,
+            626.069,
+            "Hub",
+            26,
+            8
+        ],
+        "cc": [
+            404.4943,
+            28,
+            522.2441,
+            "Hub",
+            172,
+            59
+        ],
+        "c1": [
+            383.3871,
+            44,
+            507.3495,
+            "Hub",
+            358,
+            71
+        ],
+        "c2": [
+            406.5944,
+            86,
+            462.6909,
+            "Hub",
+            180,
+            61
+        ]
+    },
+    "isMuted": false,
+    "mutedUntil": null,
+    "nick": null,
+    "ptCommands": false,
+    "ptChatMacros": false,
+    "isPvPEnabled": true,
+    "isUnlimitedEnabled": false,
+    "isVanished": false
+}

@@ -1,0 +1,13 @@
+{
+    "isAFK": false,
+    "isGod": false,
+    "homes": [],
+    "isMuted": false,
+    "mutedUntil": null,
+    "nick": "§b§lBoss",
+    "ptCommands": false,
+    "ptChatMacros": false,
+    "isPvPEnabled": true,
+    "isUnlimitedEnabled": false,
+    "isVanished": false
+}

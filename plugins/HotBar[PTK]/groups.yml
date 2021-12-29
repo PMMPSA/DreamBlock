@@ -1,0 +1,113 @@
+#This is config for setting every PurePerms group. Groups are automatically generated.
+#If you created new group, reload PP, and enter "/hb reload" to see it here.
+# %DEFAULT% - take the value from the default config.
+#Another strings - at the default config.
+
+Guest:
+  hot-format: "%DEFAULT%"
+  text-offset-level: "%DEFAULT%"
+  type: "%DEFAULT%"
+  time-format: "%DEFAULT%"
+  no-faction: "%DEFAULT%"
+Owner:
+  hot-format: "%DEFAULT%"
+  text-offset-level: "%DEFAULT%"
+  type: "%DEFAULT%"
+  time-format: "%DEFAULT%"
+  no-faction: "%DEFAULT%"
+Trùm:
+  hot-format: "%DEFAULT%"
+  text-offset-level: "%DEFAULT%"
+  type: "%DEFAULT%"
+  time-format: "%DEFAULT%"
+  no-faction: "%DEFAULT%"
+Builder:
+  hot-format: "%DEFAULT%"
+  text-offset-level: "%DEFAULT%"
+  type: "%DEFAULT%"
+  time-format: "%DEFAULT%"
+  no-faction: "%DEFAULT%"
+Helper:
+  hot-format: "%DEFAULT%"
+  text-offset-level: "%DEFAULT%"
+  type: "%DEFAULT%"
+  time-format: "%DEFAULT%"
+  no-faction: "%DEFAULT%"
+Youtuber:
+  hot-format: "%DEFAULT%"
+  text-offset-level: "%DEFAULT%"
+  type: "%DEFAULT%"
+  time-format: "%DEFAULT%"
+  no-faction: "%DEFAULT%"
+Police:
+  hot-format: "%DEFAULT%"
+  text-offset-level: "%DEFAULT%"
+  type: "%DEFAULT%"
+  time-format: "%DEFAULT%"
+  no-faction: "%DEFAULT%"
+Admin:
+  hot-format: "%DEFAULT%"
+  text-offset-level: "%DEFAULT%"
+  type: "%DEFAULT%"
+  time-format: "%DEFAULT%"
+  no-faction: "%DEFAULT%"
+CoOwner:
+  hot-format: "%DEFAULT%"
+  text-offset-level: "%DEFAULT%"
+  type: "%DEFAULT%"
+  time-format: "%DEFAULT%"
+  no-faction: "%DEFAULT%"
+Co-OP:
+  hot-format: "%DEFAULT%"
+  text-offset-level: "%DEFAULT%"
+  type: "%DEFAULT%"
+  time-format: "%DEFAULT%"
+  no-faction: "%DEFAULT%"
+1:
+  hot-format: "%DEFAULT%"
+  text-offset-level: "%DEFAULT%"
+  type: "%DEFAULT%"
+  time-format: "%DEFAULT%"
+  no-faction: "%DEFAULT%"
+2:
+  hot-format: "%DEFAULT%"
+  text-offset-level: "%DEFAULT%"
+  type: "%DEFAULT%"
+  time-format: "%DEFAULT%"
+  no-faction: "%DEFAULT%"
+3:
+  hot-format: "%DEFAULT%"
+  text-offset-level: "%DEFAULT%"
+  type: "%DEFAULT%"
+  time-format: "%DEFAULT%"
+  no-faction: "%DEFAULT%"
+4:
+  hot-format: "%DEFAULT%"
+  text-offset-level: "%DEFAULT%"
+  type: "%DEFAULT%"
+  time-format: "%DEFAULT%"
+  no-faction: "%DEFAULT%"
+5:
+  hot-format: "%DEFAULT%"
+  text-offset-level: "%DEFAULT%"
+  type: "%DEFAULT%"
+  time-format: "%DEFAULT%"
+  no-faction: "%DEFAULT%"
+6:
+  hot-format: "%DEFAULT%"
+  text-offset-level: "%DEFAULT%"
+  type: "%DEFAULT%"
+  time-format: "%DEFAULT%"
+  no-faction: "%DEFAULT%"
+PMem:
+  hot-format: "%DEFAULT%"
+  text-offset-level: "%DEFAULT%"
+  type: "%DEFAULT%"
+  time-format: "%DEFAULT%"
+  no-faction: "%DEFAULT%"
+Youtube:
+  hot-format: "%DEFAULT%"
+  text-offset-level: "%DEFAULT%"
+  type: "%DEFAULT%"
+  time-format: "%DEFAULT%"
+  no-faction: "%DEFAULT%"

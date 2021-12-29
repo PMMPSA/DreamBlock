@@ -1,0 +1,27 @@
+# SimpleAuth 1.4.0 language file
+
+join:
+ message1: "           §r§a-=§e|§c♦§e|§bDream§aBlock§b-§aNetWork §e|§c♦§e|§a=-"
+ message2: "§b-•[§eChào Mừng Bãn Đã Đến Máy Chủ §bDream§aBlock§b]•-\n§f• §aĐăng nhập §dhoặc §aĐăng kí §dđể chơi bạn nhé"
+ register: "§f• §aĐăng kí §dbằng cách nhập chính xác 2 lần mật khẩu bạn muốn[Type <password> into chat to register]\n§f• §eĐổi mật khẩu bằng cách §a/chpwd <mật khẩu cũ> §evà làm theo hướng dẫn\n§f• §bVote cho Server tại §6Bit.do/tmk-vote\n§b-------------------------"
+ login: "§f• §aĐăng nhập §dbằng cách nhập trực tiếp mật khẩu của bạn[Type <password> into chat to login]\n§f• §eĐổi mật khẩu bằng cách §a/chpwd <mật khẩu cũ> §evà làm theo hướng dẫn\n§f• §bVote cho Server tại §6Bit.do/tmk-vote"
+ popup: "§e-=§c♦§e=- §aBạn Chưa Sẵn Sàng Để Chơi §e-=§c♦§e=-"
+
+register:
+ usage: "Reg"
+ description: "Reg"
+ permission: "You do not have permission to use the register command!"
+ error:
+  password: "§f• §cMật khẩu quá ngắn, mật khẩu phải hơn §b8 §dchữ §choặc §dsố"
+  registered: "§f• §cĐăng kí không thành công[Register Success]" 
+  general: "Error during authentication."
+
+login:
+ usage: "Login"
+ description: "Login"
+ permission: "You do not have permission to use the login command!"
+ success: "§f• §eĐăng nhập thành công[Login Success]"
+ error:
+  password: "§f• §cMật khẩu không hợp lệ, nếu không phải tài khoản của bạn xin vui lòng đổi tên ở phần cài đặt"
+  registered: "§f• §cTài khoản này chưa được đăng kí"
+  block: "§f• §cBạn đã thử quá nhiều lần"

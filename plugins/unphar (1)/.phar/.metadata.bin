@@ -1,0 +1,1 @@
+a:9:{s:4:"name";s:11:"EconomyShop";s:7:"version";s:5:"2.0.7";s:4:"main";s:31:"onebone\economyshop\EconomyShop";s:3:"api";a:1:{i:0;s:6:"1.12.0";}s:6:"depend";a:1:{i:0;s:10:"EconomyAPI";}s:11:"description";N;s:7:"authors";a:1:{i:0;s:7:"onebone";}s:7:"website";N;s:12:"creationDate";i:1444110701;}

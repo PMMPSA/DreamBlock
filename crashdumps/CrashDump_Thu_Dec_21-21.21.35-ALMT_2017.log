@@ -1,0 +1,74 @@
+TerminatorVN Crash Dump Thu Dec 21 21:21:35 ALMT 2017
+
+Error: Class PTK\MineLevel\Main not found
+File: /src/spl/BaseClassLoader
+Line: 131
+Type: notice
+
+THIS CRASH WAS CAUSED BY A PLUGIN
+
+Code:
+[122] 	 *
+[123] 	 * @return bool
+[124] 	 */
+[125] 	public function loadClass($name){
+[126] 		$path = $this->findClass($name);
+[127] 		if($path !== null){
+[128] 			include($path);
+[129] 			if(!class_exists($name, false) and !interface_exists($name, false) and !trait_exists($name, false)){
+[130] 				if($this->getParent() === null){
+[131] 					throw new ClassNotFoundException("Class $name not found");
+[132] 				}
+[133] 				return false;
+[134] 			}
+[135] 
+[136] 			if(method_exists($name, "onClassLoaded") and (new ReflectionClass($name))->getMethod("onClassLoaded")->isStatic()){
+[137] 				$name::onClassLoaded();
+[138] 			}
+[139] 			
+[140] 			$this->classes[] = $name;
+[141] 
+
+Backtrace:
+#0 (): spl_autoload_call(string PTK\MineLevel\Main)
+#1 /src/pocketmine/plugin/FolderPluginLoader(76): class_exists(string PTK\MineLevel\Main, boolean 1)
+#2 /src/pocketmine/plugin/PluginManager(159): pocketmine\plugin\FolderPluginLoader->loadPlugin(string C:\Users\TEMP.ALIKUXAC\Downloads\TerminatorVN[PTK]-F\plugins\MineLV)
+#3 /src/pocketmine/plugin/PluginManager(346): pocketmine\plugin\PluginManager->loadPlugin(string C:\Users\TEMP.ALIKUXAC\Downloads\TerminatorVN[PTK]-F\plugins\MineLV, array Array())
+#4 /src/pocketmine/Server(1889): pocketmine\plugin\PluginManager->loadPlugins(string C:\Users\TEMP.ALIKUXAC\Downloads\TerminatorVN[PTK]-F\plugins\)
+#5 /src/pocketmine/PocketMine(492): pocketmine\Server->__construct(BaseClassLoader object, pocketmine\utils\MainLogger object, string C:\Users\TEMP.ALIKUXAC\Downloads\TerminatorVN[PTK]-F\, string C:\Users\TEMP.ALIKUXAC\Downloads\TerminatorVN[PTK]-F\, string C:\Users\TEMP.ALIKUXAC\Downloads\TerminatorVN[PTK]-F\plugins\)
+
+TerminatorVN version: 0000000000000000000000000000000000000000 [Protocol 113; API 3.0.1]
+uname -a: Windows NT ALIKUXAC 6.3 build 9600 (Windows Server 2012 R2 Standard Edition) AMD64
+PHP version: 7.0.2
+Zend version: 3.0.0
+OS : WINNT, win
+
+Server uptime: 1 seconds
+Number of loaded worlds: 0
+Players online: 0/20
+
+Loaded plugins:
+am_PlayerSize  by emanuele0204 for API(s) 2.0.0, 2.1.0, 3.0.0APLHA1, 3.0.0
+AutoInv[PTK] 0.1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+AutoRestartSystem[PTK] 0.1 by PTK-KienPham for API(s) 1.10.0, 2.0.0, 3.0.0
+AWL[PTK] 1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+BuyEc[PTK] 3 by  for API(s) 2.0.0, 3.0.0
+ChatSystem[PTK] 1.6 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+ChatToolsPro 1.2 by paetti for API(s) 1.0.0, 2.0.0, 3.0.0, 3.0.0-ALPHA, 3.0.0-ALPHA1, 4.0.0, 5.0.0
+CommandBlocker 1.5.5 by Thunder33345 for API(s) 2.0.0
+CONSOLEChat 1.0.0 by TheNewHEROBRINE for API(s) 2.0.0
+Crates[PTK] 0.1 by PTK-KienPham for API(s) 3.0.0, 2.1.0, 2.0.0
+CustomAlerts 1.6 by EvolSoft for API(s) 1.12.0, 3.0.0
+DF[PTK] 0..1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+DonRac[PTK] 2 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+EconomyJob 2.0.4 by KienPham for API(s) 1.0.0, 2.0.0
+Feed[PTK] 1 by  for API(s) 2.0.0
+FlyText[PTK] 1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+FactionsPro 1.0 rewrite by PTK-KienPham by Array for API(s) 1.14.0, 2.0.0
+HotBar[PTK] 1.5.0 by KienPham for API(s) 1.13.0, 2.0.0
+Idea_Aro 1 by PVHB for API(s) 2.0.0
+Info[PTK] 2 by PTK-KienPham for API(s) 2.0.0
+ItemCloud 1.1 by KienPham for API(s) 1.4.0, 2.0.0
+ItemEditor[PTK] 0.1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+MagicWE 0.2.6 by thebigsmileXD for API(s) 1.13.0, 2.0.0
+ManyWorlds 2.1.0 by aliuly for API(s) 2.0.0

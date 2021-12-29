@@ -1,0 +1,1 @@
+a:9:{s:4:"name";s:11:"Broadcaster";s:7:"version";s:4:"1.16";s:4:"main";s:16:"Broadcaster\Main";s:3:"api";a:1:{i:0;s:6:"1.12.0";}s:6:"depend";a:0:{}s:11:"description";s:16:"Broadcast Plugin";s:7:"authors";a:1:{i:0;s:8:"EvolSoft";}s:7:"website";s:22:"http://www.evolsoft.tk";s:12:"creationDate";i:1432826641;}

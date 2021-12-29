@@ -1,0 +1,128 @@
+---
+version: 1
+blocks:
+  0:
+    x: -25
+    "y": 41
+    z: 48
+    level: "02"
+    commands:
+    - af maxhealth 50
+  1:
+    x: -26
+    "y": 42
+    z: 26
+    level: "02"
+    commands:
+    - af maxhealth 50
+  2:
+    x: 42
+    "y": 76
+    z: 24
+    level: "01"
+    commands:
+    - af maxhealth 50
+  3:
+    x: 280
+    "y": 70
+    z: 269
+    level: sb
+    commands:
+    - thanthoai
+  4:
+    x: 278
+    "y": 70
+    z: 269
+    level: sb
+    commands:
+    - huyenthoai
+  5:
+    x: 127
+    "y": 6
+    z: 34
+    level: Crate
+    commands:
+    - binhthuong
+  6:
+    x: 120
+    "y": 6
+    z: 27
+    level: Crate
+    commands:
+    - hiem
+  7:
+    x: 113
+    "y": 6
+    z: 34
+    level: Crate
+    commands:
+    - huyenthoai
+  8:
+    x: 120
+    "y": 6
+    z: 41
+    level: Crate
+    commands:
+    - thanthoai
+  9:
+    x: 272
+    "y": 70
+    z: 270
+    level: sb
+    commands:
+    - time set day
+  10:
+    x: 272
+    "y": 70
+    z: 268
+    level: sb
+    commands:
+    - sb h
+  12:
+    x: 269
+    "y": 70
+    z: 256
+    level: sb
+    commands:
+    - tp 283 69 285
+    - gm a
+    - say huhu tại sao tui vào tù
+  13:
+    x: 267
+    "y": 70
+    z: 256
+    level: sb
+    commands:
+    - tp 283 69 292
+    - gm a
+    - say huhu tại sao tui vào tù
+  17:
+    x: 371
+    "y": 7
+    z: 501
+    level: HUB
+    commands:
+    - thanthoai
+  14:
+    x: 259
+    "y": 70
+    z: 256
+    level: sb
+    commands:
+    - hub
+    - tp 444 5 200
+  15:
+    x: 259
+    "y": 70
+    z: 255
+    level: sb
+    commands:
+    - tp 444 5 200
+  16:
+    x: 78
+    "y": 70
+    z: -493
+    level: sb
+    commands:
+    - time set day
+...

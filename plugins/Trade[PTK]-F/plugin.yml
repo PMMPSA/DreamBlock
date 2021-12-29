@@ -1,0 +1,9 @@
+name: Trade[PTK]
+version: 1.0
+main: PTK\Trade\Main
+author: PTK-KienPham
+description: Plugin Trade By PTK-KienPham
+api: [2.0.0, 3.0.0]
+commands:
+ trade:
+  default: true

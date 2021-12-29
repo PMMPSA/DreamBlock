@@ -1,0 +1,20 @@
+name: PTKCustomEnchantsShop
+main: PTKCustomEnchantsShop\Main
+version: 1.0.0
+api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]
+load: POSTWORLD
+author: PTK-KienPham
+permissions:
+  ptkcustomenchantsshop:
+    default: op
+    description: "Use everything in PTKCustomEnchantsShop"
+    children:
+      ptkcustomenchantsshop.breaksign:
+        default: op
+        descriptiom: "Break CE shop signs"
+      ptkcustomenchantsshop.makesign:
+        default: op
+        description: "Make CE shop signs"
+      ptkcustomenchantsshop.usesign:
+        default: true
+        description: "Use CE shop signs"

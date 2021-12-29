@@ -1,0 +1,56 @@
+---
+### Thứ tự số ngày
+1:
+  ## Kiểu loại
+  type: item
+  ## ID
+  id: 276
+  ## Meta
+  meta: 0
+  ##Số lượng
+  count: 1
+  ## Đặt tên cho item người chơi nhận được
+  custom_name: §aQuà Online-Kiếm Kim Cương
+  ## Thông số Enchant
+  enchant:
+    ## Enchant ID
+    ench_id: 9
+    ## Enchant Level
+    ench_level: 10
+2:
+  type: item
+  id: 278
+  meta: 0
+  count: 1
+  custom_name: §aQuà Online-Cúp Kim Cương
+  enchant:
+    ench_id: 17
+    ench_level: 10
+3:
+  type: item
+  id: 277
+  meta: 0
+  count: 1
+  custom_name: §aQuà Online-Xẻng Kim Cương
+  enchant:
+    ench_id: 17
+    ench_level: 10
+4:
+  type: item
+  id: 279
+  meta: 0
+  count: 1
+  custom_name: §aQuà Online-Rìu Kim Cương
+  enchant:
+    ench_id: 17
+    ench_level: 10
+5:
+  type: item
+  id: 57
+  meta: 0
+  count: 64
+  custom_name: §aQuà Online-Khối Kim Cương
+  enchant:
+    ench_id:
+    ench_level:
+...

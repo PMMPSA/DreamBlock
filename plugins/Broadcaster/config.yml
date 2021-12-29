@@ -1,0 +1,29 @@
+---
+prefix: "§bDream§aBlock"
+suffix: ""
+time: 80
+sendmessage-format: "&b-=-=[{PREFIX}]=-=- {SUFFIX} &a{SENbER}&e>&f {MESSAGE}"
+datetime-format: "H:i:s"
+broabcast-enabled: true
+messages:
+ - "&b-=[{PREFIX}]=-&f §e•&bGhi ./sb auto Để Tìm Đảo Còn Trống"
+ - "&c-=[{PREFIX}]=-&f §e•&bGhi ./buyec Để Mua Phù Phép!"
+ - "&b-=[{PREFIX}]=-&f §e•&bGhi ./listec Để Xem Danh Sách Phù Phép!"
+ - "&b-=[{PREFIX}]=-&f §e•&bGhi ./vitien Để Mua Point, Mua Vip, Đổi Từ Point Qua Xu !"
+ - "&b-=[{PREFIX}]=-&f §e•&bGhi ./giapoint Để Xem Giá Point!"
+ - "&b-=[{PREFIX}]=-&f §e•&bGhi ./giavip Để Xem Giá Mua Vip!"
+ - "&b-=[{PREFIX}]=-&f §e•&bGhi ./sb help Để Xem Cách Chơi SkyBlock!"
+ - "&b-=[{PREFIX}]=-&f §e•&bGhi ./giadoixu Để Xem Giá Đổi Từ Point Qua Xu!"
+ - "&b-=[{PREFIX}]=-&f §e•&bGhi ./khu (tên khu) Để Dịch Chuyển Đến Khu Nào Đó!"
+ - "&b-=[{PREFIX}]=-&f §e•&bGhi ./listkhu Để Xem Danh Sách Các Khu!"
+ - "&b-=[{PREFIX}]=-&f §e•&bGhi ./trade Để Trade Vật Phẩm Hoặc Xem Danh Sách Trade Vật Phẩm!"
+ - "&b-=[{PREFIX}]=-&f §e•&bGhi ./info Để Xem Thông Tin Về Server!"
+popup-time: 150
+popup-duration: 5
+senbpopup-format: "&a{SENbER}&e>>&f {MESSAGE}"
+popup-broabcast-enabled: false
+popups:
+ - "&aHope you enjoy school"
+ - "&bTry Skyblock now!"
+ - "&bTry PvP now!"
+...

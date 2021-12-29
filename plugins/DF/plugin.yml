@@ -1,0 +1,5 @@
+name: DF[PTK]
+main: DF\DF
+version: 0..1
+author: PTK-KienPham
+api: [2.0.0, 3.0.0]

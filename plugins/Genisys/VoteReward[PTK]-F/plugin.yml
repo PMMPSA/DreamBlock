@@ -1,0 +1,25 @@
+name: VoteReward[PTK]
+main: PTK\VoteReward\Main
+version: 1.0
+api: [1.12.0, 2.0.0]
+author: PTK-KienPham
+commands:
+  vote:
+    usage: "/vote"
+    description: "Vote Cho Máy Chủ."
+    permission: votereward.command.vote
+permissions:
+  votereward:
+    default: false
+    description: "Allows access to all VoteReward features."
+    children:
+      votereward.command:
+        default: false
+        description: "Allows access to all VoteReward commands."
+        children:
+          votereward.command.vote:
+            default: true
+            description: "Allows access to using the vote command."
+          votereward.command.reload:
+            default: op
+            description: "Allows access to the vote reload subcommand."

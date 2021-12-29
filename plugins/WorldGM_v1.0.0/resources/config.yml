@@ -1,0 +1,10 @@
+
+# All gamemodes are in integer (numeric)
+# The default gamemode if the world doesn't exists in list gamemodes
+default.gamemode: 0
+# The gamemode that will set when players join
+join.gamemode: 0
+# List of gamemodes in worlds
+gamemodes: 
+  plot: 1
+  lobby: 0

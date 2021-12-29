@@ -1,0 +1,46 @@
+{
+    "isAFK": false,
+    "isGod": false,
+    "homes": {
+        "fram": [
+            -469.0143,
+            69,
+            651.9727,
+            "sb",
+            137,
+            72
+        ],
+        "chu": [
+            18820.4863,
+            69,
+            18767.793,
+            "sb",
+            8,
+            0
+        ],
+        "theboss": [
+            88.4622,
+            69,
+            311.8503,
+            "sb",
+            1,
+            0
+        ],
+        "trenhom": [
+            -280.5586,
+            83,
+            -673.5988,
+            "sb",
+            154,
+            16
+        ]
+    },
+    "isMuted": false,
+    "mutedUntil": null,
+    "nick": null,
+    "ptCommands": false,
+    "ptChatMacros": false,
+    "isPvPEnabled": true,
+    "isUnlimitedEnabled": false,
+    "isVanished": false
+}

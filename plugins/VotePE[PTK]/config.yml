@@ -1,0 +1,22 @@
+#Cấm Sao Chép Dưới Mọi Hình Thức
+#
+#Cài Đặt Của VotePE Bởi PTK-KienPham
+#
+
+#Thông Báo Khi Ai Đó Vote
+Message: "§b[§c❤§eVote-System§c❤§b]§a Người Chơi &b{USERNAME}&a Đã Vote Cho Máy Chủ Và Nhận Nhiều Phần Quà Hấp Dãn!&6 Hãy Vote Cho Máy Chủ Tại bit.do/tmk-vote(Dùng /cachvote để xem cách vote)!"
+
+#Danh Sách Các Item Người Chơi Sẽ Nhận Được Khi Vote
+Items:
+  - "264:0:10"
+  - "17:0:64"
+  - "364:0:5"
+  - "131:4:1"
+  - "388:0:5"
+
+#Danh Sách Các Lệch Sẽ Được Thục Hiện Khi Người Chơi Vote
+Commands:
+  - "particle portal {X} {Y1} {Z} 2 2 2 10000"
+  - "tangxu {USERNAME} 10000"
+  - "enchant {USERNAME} 15 5"
+  - "enchant {USERNAME} 17 3"

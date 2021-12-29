@@ -1,0 +1,46 @@
+{
+    "isAFK": false,
+    "isGod": false,
+    "homes": {
+        "sbbao": [
+            276.8691,
+            69,
+            462.4683,
+            "sb",
+            358,
+            64
+        ],
+        "shop": [
+            0.3819,
+            65,
+            0.6221,
+            "Shop",
+            90,
+            90
+        ],
+        "sbzio": [
+            89.1878,
+            69,
+            -470.1468,
+            "sb",
+            358,
+            89
+        ],
+        "sbhuy": [
+            276.1534,
+            66,
+            -272.1269,
+            "sb",
+            0,
+            38
+        ]
+    },
+    "isMuted": false,
+    "mutedUntil": null,
+    "nick": null,
+    "ptCommands": false,
+    "ptChatMacros": false,
+    "isPvPEnabled": true,
+    "isUnlimitedEnabled": false,
+    "isVanished": false
+}

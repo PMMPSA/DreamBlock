@@ -1,0 +1,16 @@
+---
+data-provider: yamlv1
+default-language: en
+disable-op: false
+enable-multiworld-perms: false
+enable-noeul-sixtyfour: false
+mysql-settings:
+  host: localhost
+  port: 3306
+  user: KienCool
+  password: KienCool@192837#01
+  db: YourDBNameGoesHere
+noeul-minimum-pw-length: 6
+superadmin-ranks:
+- Owner
+...

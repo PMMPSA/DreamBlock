@@ -1,0 +1,16 @@
+{
+    "isAFK": false,
+    "isGod": false,
+    "homes": [],
+    "isMuted": false,
+    "mutedUntil": null,
+    "nick": null,
+    "ptCommands": {
+        "388": "\/set 57",
+        "4": "tp -99 129 83"
+    },
+    "ptChatMacros": false,
+    "isPvPEnabled": true,
+    "isUnlimitedEnabled": false,
+    "isVanished": false
+}

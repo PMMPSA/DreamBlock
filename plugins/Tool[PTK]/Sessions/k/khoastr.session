@@ -1,0 +1,70 @@
+{
+    "isAFK": true,
+    "isGod": false,
+    "homes": {
+        "noob": [
+            836.9944,
+            69,
+            272.9178,
+            "sb",
+            278,
+            -7
+        ],
+        "khoa": [
+            1213.2194,
+            69,
+            -98.9984,
+            "sb",
+            80,
+            14
+        ],
+        "porry": [
+            -293.5491,
+            69,
+            -670.226,
+            "sb",
+            325,
+            15
+        ],
+        "zzx": [
+            -868.9272,
+            69,
+            632,
+            "sb",
+            298,
+            1
+        ],
+        "k": [
+            -97,
+            69,
+            -1034,
+            "sb",
+            48,
+            0
+        ],
+        "up": [
+            -275.4136,
+            83,
+            -673.5515,
+            "sb",
+            90,
+            17
+        ],
+        "afk": [
+            1222.4067,
+            72,
+            -85.4935,
+            "sb",
+            181,
+            90
+        ]
+    },
+    "isMuted": false,
+    "mutedUntil": null,
+    "nick": null,
+    "ptCommands": false,
+    "ptChatMacros": false,
+    "isPvPEnabled": true,
+    "isUnlimitedEnabled": false,
+    "isVanished": false
+}

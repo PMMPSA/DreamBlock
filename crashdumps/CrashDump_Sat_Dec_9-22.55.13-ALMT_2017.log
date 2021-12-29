@@ -1,0 +1,48 @@
+TerminatorVN Crash Dump Sat Dec 9 22:55:13 ALMT 2017
+
+Error: syntax error, unexpected '}'
+File: /src/pocketmine/block/Liquid
+Line: 525
+Type: notice
+
+Code:
+[516] 				   /*Kim Cương*/}elseif($orerand =20 or $orerand =100 or $orerand =90 or $orerand =80 or $orerand =70 or $orerand =50 or $orerand =60 or $orerand =30 or $orerand =40){$this->getLevel()->setBlock($this, Block::get(Item::DIAMOND_ORE), true);
+[517] 				   }elseif($orerand >=26 and $orerand <=29){$this->getLevel()->setBlock($this, Block::get(Item::OBSIDIAN), true);
+[518] 				   }elseif($orerand >=31 and $orerand <=34){$this->getLevel()->setBlock($this, Block::get(Item::LAPIS_ORE), true);
+[519] 				   }elseif($orerand >=26 and $orerand <=29){$this->getLevel()->setBlock($this, Block::get(Item::OBSIDIAN), true);
+[520] 				   }elseif($orerand >=16 and $orerand <=19){$this->getLevel()->setBlock($this, Block::get(Item::NETHER_QUARTZ_ORE), true);
+[521] 				   }elseif($orerand >=71 and $orerand <=74){$this->getLevel()->setBlock($this, Block::get(Item::REDSTONE_ORE), true);
+[522] 				   }elseif($orerand >=11 and $orerand <=14  or $orerand >=36 and $orerand <=39 or $orerand >=51 and $orerand <=54){$this->getLevel()->setBlock($this, Block::get(Item::GOLD_BLOCK), true); 
+[523] 				   }elseif($orerand >=61 and $orerand <=64 or $orerand >=56 and $orerand <=59 or $orerand >=76 and $orerand <=79){$this->getLevel()->setBlock($this, Block::get(Item::COAL_ORE), true);
+[524] 				   }elseif($orerand >=6 and $orerand <=9 or $orerand >=86 and $orerand <=89){$this->getLevel()->setBlock($this, Block::get(Item::IRON_ORE), true)
+[525] 					}
+[526] 				}
+[527] 			}
+[528]         }
+[529] 	}
+[530] 	/**
+[531] 	 * @return null
+[532] 	 */
+[533] 	public function getBoundingBox(){
+[534] 		return null;
+[535] 	}
+
+Backtrace:
+#0 /src/pocketmine/block/Water(28): spl_autoload_call(string pocketmine\block\Liquid)
+#1 /src/spl/BaseClassLoader(128): include(string C:\Users\TEMP.ALIKUXAC\Downloads\TerminatorVN[PTK]-F\src\pocketmine\block\Water.php)
+#2 (): BaseClassLoader->loadClass(string pocketmine\block\Water)
+#3 /src/pocketmine/block/Block(327): spl_autoload_call(string pocketmine\block\Water)
+#4 /src/pocketmine/Server(1860): pocketmine\block\Block::init(boolean)
+#5 /src/pocketmine/PocketMine(492): pocketmine\Server->__construct(BaseClassLoader object, pocketmine\utils\MainLogger object, string C:\Users\TEMP.ALIKUXAC\Downloads\TerminatorVN[PTK]-F\, string C:\Users\TEMP.ALIKUXAC\Downloads\TerminatorVN[PTK]-F\, string C:\Users\TEMP.ALIKUXAC\Downloads\TerminatorVN[PTK]-F\plugins\)
+
+TerminatorVN version: 0000000000000000000000000000000000000000 [Protocol 113; API 3.0.1]
+uname -a: Windows NT ALIKUXAC 6.3 build 9600 (Windows Server 2012 R2 Standard Edition) AMD64
+PHP version: 7.0.2
+Zend version: 3.0.0
+OS : WINNT, win
+
+Server uptime: 0 seconds
+Number of loaded worlds: 0
+Players online: 0/20
+
+Loaded plugins:

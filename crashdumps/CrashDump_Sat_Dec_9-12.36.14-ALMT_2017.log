@@ -1,0 +1,103 @@
+TerminatorVN Crash Dump Sat Dec 9 12:36:14 ALMT 2017
+
+Error: syntax error, unexpected 'use' (T_USE), expecting ',' or ';'
+File: /plugins/PiZYDS-KeepInventory-master/src/KeepInventory/Main
+Line: 5
+Type: notice
+
+THIS CRASH WAS CAUSED BY A PLUGIN
+
+Code:
+[1] <?php
+[2] namespace KeepInventory;
+[3] use pocketmine\plugin\PluginBase;
+[4] use pocketmine\event\player\PlayerDeathEvent
+[5] use pocketmine\event\Listener;
+[6] use pocketmine\utils\TextFormat as C;
+[7] use pocketmine\utils\server;
+[8] class Main extends PluginBase implements Listener{
+[9]   public function onEnable(){
+[10]     $this->getServer()->getLogger()->info(C::GREEN."KeepInventory Enable!");
+[11]     $this->getServer()->getPluginManager()->registerEvents($this, $this);
+[12]     }
+[13]   
+[14]   public function onDisable(){
+[15]     $this->getLogger()->info(C::RED."KeepInventory Disable");
+
+Backtrace:
+#0 (): spl_autoload_call(string KeepInventory\Main)
+#1 /src/pocketmine/plugin/FolderPluginLoader(76): class_exists(string KeepInventory\Main, boolean 1)
+#2 /src/pocketmine/plugin/PluginManager(159): pocketmine\plugin\FolderPluginLoader->loadPlugin(string C:\Users\TEMP.ALIKUXAC\Downloads\TerminatorVN[PTK]-F\plugins\PiZYDS-KeepInventory-master)
+#3 /src/pocketmine/plugin/PluginManager(346): pocketmine\plugin\PluginManager->loadPlugin(string C:\Users\TEMP.ALIKUXAC\Downloads\TerminatorVN[PTK]-F\plugins\PiZYDS-KeepInventory-master, array Array())
+#4 /src/pocketmine/Server(3695) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(11): pocketmine\plugin\PluginManager->loadPlugins(string C:\Users\TEMP.ALIKUXAC\Downloads\TerminatorVN[PTK]-F\plugins\)
+#5 /src/pocketmine/PocketMine(781) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): pocketmine\Server->__construct(BaseClassLoader object, pocketmine\utils\MainLogger object, string C:\Users\TEMP.ALIKUXAC\Downloads\TerminatorVN[PTK]-F\, string C:\Users\TEMP.ALIKUXAC\Downloads\TerminatorVN[PTK]-F\, string C:\Users\TEMP.ALIKUXAC\Downloads\TerminatorVN[PTK]-F\plugins\)
+#6 /src/pocketmine/PocketMine(781) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval(boolean)
+#7 /src/pocketmine/PocketMine(781) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval(boolean)
+#8 /src/pocketmine/PocketMine(781) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval(boolean)
+#9 /src/pocketmine/PocketMine(781) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval(boolean)
+#10 /src/pocketmine/PocketMine(781) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1): eval(boolean)
+#11 /src/pocketmine/PocketMine(781) : eval()'d code(2) : eval()'d code(1): eval(boolean)
+#12 /src/pocketmine/PocketMine(781) : eval()'d code(2): eval(boolean)
+#13 /src/pocketmine/PocketMine(781): eval(boolean)
+
+TerminatorVN version: 0000000000000000000000000000000000000000 [Protocol 113; API 3.0.1]
+uname -a: Windows NT ALIKUXAC 6.3 build 9600 (Windows Server 2012 R2 Standard Edition) AMD64
+PHP version: 7.0.2
+Zend version: 3.0.0
+OS : WINNT, win
+
+Server uptime: 1 seconds
+Number of loaded worlds: 0
+Players online: 0/20
+
+Loaded plugins:
+AdminFun 1.0.0 by hoyinm14mc for API(s) 1.12.0, 1.13.0, 2.0.0
+AntiServerStop 1.1 by paetti for API(s) 1.0.0, 2.0.0, 3.0.0, 3.0.1, 3.1.0, 3.0.0-ALPHA1, 4.0.0, 5.0.0, 3.0.0-ALPHA6
+Broadcaster 1.16 by EvolSoft for API(s) 1.12.0
+CalculatorPE 1.0.0 by Vaivez66 for API(s) 1.12.0
+CmdSnooper 1.2.0 by HotshotHD & CodeRed2019 for API(s) 1.13.0, 2.0.0, 3.0.0, 3.0.0-ALPHA5
+EasierTime 1.2 by Ad5001 for API(s) 2.0.0
+EconomyAPI 2.0.9 by onebone for API(s) 2.0.0
+NetherChests 1.1.1 by aliuly for API(s) 1.12.0
+InventorySize 1 by MaxFreeze for API(s) 2.0.0
+iProtector 3.1b by LDX for API(s) 1.9.0, 3.0.0-ALPHA7
+ItemCasePE 1.0.8 by aliuly for API(s) 1.10.0, 1.13.0
+KillChat 1.0.2.MOD by Array for API(s) 1.9.0, 2.0.0
+MOTDShuffle 1.1.0 by TheDeibo for API(s) 3.0.0-ALPHA9
+Oplist 1.0.2 by  for API(s) 2.0.0
+ServerMail 0.0.2 by tschrock (tschrock123@gmail.com) for API(s) 3.0.0-ALPHA5, 3.0.0-ALPHA6
+SignEnchant 1.1.1 by FRONGKY for API(s) 1.0.0, 1.1.0, 1.2.0, 1.2.1, 3.0.0-ALPHA6, 3.0.0-ALPHA5, 3.0.0-ALPHA4, 2.0.0
+SignModifier 1.0.0 by wolfdale for API(s) 1.3.1
+SimpleAuth 1.8.1 by PocketMine Team, shoghicp, awzaw for API(s) 2.0.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2, 3.0.0-ALPHA3, 3.0.0-ALPHA4, 3.0.0-ALPHA5
+SimpleAuthHelper 2.0.1 by aliuly for API(s) 1.12.0
+Spawner 2 by zMarcos360 for API(s) 2.0.0
+Titler 0.1.0 by Niekert for API(s) 3.0.0, 3.0.0-ALPHA5, 3.0.0-ALPHA6, 3.0.0-ALPHA7, 3.0.1
+WorldProtect 2.2.0 by aliuly for API(s) 1.10.0, 1.12.0, 3.0.0-ALPHA6
+AutoInv[PTK] 0.1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+AutoRestartSystem[PTK] 0.1 by PTK-KienPham for API(s) 1.10.0, 2.0.0, 3.0.0
+AWL[PTK] 1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+BuyEc[PTK] 3 by  for API(s) 2.0.0, 3.0.0
+ChatToolsPro 1.2 by paetti for API(s) 1.0.0, 2.0.0, 3.0.0, 3.0.0-ALPHA, 3.0.0-ALPHA1, 4.0.0, 5.0.0
+CommandBlocker 1.5.5 by Thunder33345 for API(s) 2.0.0
+CONSOLEChat 1.0.0 by TheNewHEROBRINE for API(s) 2.0.0
+Crates[PTK] 0.1 by PTK-KienPham for API(s) 3.0.0, 2.1.0, 2.0.0
+CustomAlerts 1.6 by EvolSoft for API(s) 1.12.0, 3.0.0
+DF[PTK] 0..1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+Dial[PTK] 0.3.1 by PTK-KienPham for API(s) 2.0.0
+DonRac[PTK] 2 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+EconomyJob 2.0.4 by KienPham for API(s) 1.0.0, 2.0.0
+Feed[PTK] 1 by  for API(s) 2.0.0
+FlyText[PTK] 1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+FactionsPro 1.0 rewrite by PTK-KienPham by Array for API(s) 1.14.0, 2.0.0
+HotBar[PTK] 1.5.0 by KienPham for API(s) 1.13.0, 2.0.0
+Idea_Aro 1 by PVHB for API(s) 2.0.0
+Info[PTK] 2 by PTK-KienPham for API(s) 2.0.0
+ItemCloud 1.1 by KienPham for API(s) 1.4.0, 2.0.0
+ItemEditor[PTK] 0.1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+MagicWE 0.2.6 by thebigsmileXD for API(s) 1.13.0, 2.0.0
+ManyWorlds 2.1.0 by aliuly for API(s) 2.0.0
+MineLV 0.1 by PTK-KienPham And Ktplus for API(s) 3.0.0, 2.0.0
+MSpawns 1.5 by EvolSoft for API(s) 2.0.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2, 3.0.0-ALPHA3, 3.0.0-ALPHA4
+NameCorrector 1.0.0#build011 by PEMapModder for API(s) 1.8.0, 2.0.0
+NapThe[PTK]-F 1 by  for API(s) 2.0.0, 3.0.0
+NoVoid[PTK] 0.1 by PTK-KienPham for API(s) 2.0.0, 3.0.0

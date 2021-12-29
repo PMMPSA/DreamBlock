@@ -1,0 +1,6 @@
+---
+version: 1.5
+chat: enabled
+bad-words: message
+datetime-format: "Y/m/d H:i:s"
+...

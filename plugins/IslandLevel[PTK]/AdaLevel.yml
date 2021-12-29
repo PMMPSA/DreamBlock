@@ -1,0 +1,16 @@
+---
+block-kirma: §7[§2Ada§aLevel§7] §cOops Block Kırdığın İçin Level Kaybettin!
+komut-baslik: §7-----§f[§bAdaLevel§f]§7-----
+ToplevelBaslik: §7- §aAda Seviye Sıralaması §8(§a
+Seviyen: '§aSeviyen: §6'
+MevcutXp: '§aMevcut XP: §6'
+komut: adabilgi
+tagic: '§8[§fSv. '
+tagic1: §8] §f
+tagdis: '§8[§fSv. '
+tagdis1: §8] §f
+seviyeatlamaxp: 100
+seviyeatla: §dSeviye Atlandı!
+seviyeatla2: §bAtlanılan Seviye §6
+seviyeatla3: '§aMevcut XP: §f'
+...

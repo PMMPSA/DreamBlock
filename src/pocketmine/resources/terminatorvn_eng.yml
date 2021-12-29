@@ -1,0 +1,136 @@
+#
+#  _______                  _             _          __      ___   _ 
+# |__   __|                (_)           | |         \ \    / / \ | |
+#    | | ___ _ __ _ __ ___  _ _ __   __ _| |_ ___  _ _\ \  / /|  \| |
+#    | |/ _ \ '__| '_ ` _ \| | '_ \ / _` | __/ _ \| '__\ \/ / | . ` |
+#    | |  __/ |  | | | | | | | | | | (_| | || (_) | |   \  /  | |\  |
+#    |_|\___|_|  |_| |_| |_|_|_| |_|\__,_|\__\___/|_|    \/   |_| \_|
+#
+#
+#
+#
+#
+#Cài Đặt Nâng Cao Của TerminatorVN
+
+#Phiên Bản Của Cài Đặt
+config:
+ version: 28
+
+level:
+ #Chọn True Để Bật Thời Tiết(Nó Sẽ Làm Lag Máy Bạn) Chọn False Để Tắt
+ weather: false
+ #Weather random duration
+ weather-random-duration-min: 6000
+ weather-random-duration-max: 12000
+ #Random lightning interval，default as 10s, 0 = disable
+ lightning-time: 200
+ #Set if lightning strikes have fire afterwards
+ lightning-fire: false
+ #Set if fire should spread (trees, etc.)
+ fire-spread: false
+
+player:
+ #Chọn True Để Bật Sự Đói False Để Tắt
+ hunger: true
+ #Chọn True Để Bật Kinh Nghiệm False Để Tắt
+ experience: true
+ #Chọn True Để Bật Giữ Đồ Sau Khi Chết False Để Tắt
+ keep-inventory: true
+ #Chọn True Để Bật Xóa Đồ Khi Chuyển Chế Độ False Để Tắt
+ auto-clear-inventory : false
+ #Chọn True Để Bật Giữ Kinh Nghiệm Sau Khi Chết False Để Tắt
+ keep-experience: true
+
+developer:
+  #Chọn True Để Cho Phép Chạy Plugin Dưới Dạng Tệp(Folder) False Để Không Cho Phép
+  folder-plugin-loader: true
+  #Chọn True Để Cho Phép Chạy Plugin Có API Không Phù Hợp False Để Không Cho Phép
+  load-incompatible-api: true
+
+nether:
+ #Chọn True Để Bật Thế Giới Địa Ngục False Để Tắt
+ allow-nether: true
+ #Tên Của Thế Giới Địa Ngục
+ level-name: "nether"
+
+ender:
+ #Chọn True Để Bật Thế Giới Kết Thúc False Để Tắt
+ allow-ender: true
+ #Tên Của Thế Giới Kết Thúc
+ level-name: "ender"
+
+server:
+ #Chọn True Để Cho Phép Người Sắt False Để Tắt
+ allow-iron-golem: false
+ #Chọn True Để Cho Phép Người Tuyết False Để Tắt
+ allow-snow-golem: false
+ #Chọn True Để Tắt server.log False Để Bật
+ disable-log: false
+ #Hãy Chọn Loại Thông Báo Khi Người Chơi Tham Gia Server
+ #0 = Tin Nhắn, 1 = Lời Khuyên, 2 = Popup
+ player-msg-type: 0
+ login-msg: "§3@player joined the game"
+ logout-msg: "§3@player left the game"
+ #Chọn True Để Không Cho Phép Người Ở Chế Độ Sáng Tạo Thả Đồ, Mở Rương False Để Cho Phép
+ limited-creative: false
+ #Set if add DestroyBlockParticle
+ destroy-block-particle: true
+ #Set if splash potions are enabled
+ allow-splash-potion: true
+ #Set if Advanced Command Selector is enabled
+ advanced-command-selector: false
+ #Set if enable ResourcePackManager
+ enable-resource: false
+ #This parameter turns on or off the absorption of water by a sponge
+ absorb-water: false
+
+enchantment:
+ #Choose if anvils are enabled
+ enable-anvil: true
+ #Choose if enchantment tables are enabled
+ enable-enchanting-table: true
+ #Choose if to count bookshelves (may cause server lag)
+ #If this option is false, the server will use a random count (0~15)
+ count-bookshelf: false
+
+redstone:
+ ################################################
+ ####Choose if the redstone system is enabled####
+ ################################################
+ #If it is false, the redstone system won't work#
+ ################################################
+ enable: true
+ #Choose if frequency pulses are enabled
+ frequency-pulse: false
+ #Set the frequency of pulse. Default = 1s
+ pulse-frequency: 1
+
+dserver:
+ #The count of all multi-server unified
+ enable: false
+ #Update Query automatically
+ query-auto-update: false
+ #Update Query periodically
+ query-tick-update: true
+ #The max players' on the MOTD
+ motd-max-players: 0
+ #The max players' on the Query. 0=Default
+ query-max-players: 0
+ #Show the number of all players on MOTD
+ motd-all-players: false
+ #Show the number of all players on Query
+ query-all-players: false
+ #Show the number of online players on MOTD
+ motd-players: false
+ #Show the number of online players on Query
+ query-players: false
+ #Update Frequency. 20=1s
+ time: 40
+ #Auto-retry # of times when server fails
+ retry-times: 3
+ #the server list，Separate by ';'，e.g. 1.example.com:19132;2.example.com:19133
+ server-list: ""
+
+inventory:
+ #Set this to true if you have problems with anvils. This will process inventory transactions in a vanilla fashion with no anti-cheats or verification.
+ allow-cheats: false

@@ -1,0 +1,26 @@
+#Properties Config file
+#Sat Dec 23 06:42:14 ALMT 2017
+motd=Minecraft: PE Server
+server-port=19132
+white-list=off
+announce-player-achievements=on
+spawn-protection=-1
+max-players=20
+allow-flight=off
+spawn-animals=on
+spawn-mobs=on
+gamemode=0
+force-gamemode=off
+hardcore=off
+pvp=on
+difficulty=1
+generator-settings=
+level-name=Hub
+level-seed=
+level-type=DEFAULT
+enable-query=on
+enable-rcon=off
+rcon.password=CiBvDbcHVr
+auto-save=on
+online-mode=0
+view-distance=8

@@ -1,0 +1,22 @@
+{
+    "isAFK": true,
+    "isGod": false,
+    "homes": {
+        "nhakiet": [
+            464,
+            69.000002746582,
+            -286,
+            "sb",
+            97,
+            0
+        ]
+    },
+    "isMuted": false,
+    "mutedUntil": null,
+    "nick": null,
+    "ptCommands": false,
+    "ptChatMacros": false,
+    "isPvPEnabled": true,
+    "isUnlimitedEnabled": false,
+    "isVanished": false
+}

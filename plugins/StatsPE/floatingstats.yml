@@ -1,0 +1,158 @@
+---
+2:
+  Name: "2"
+  Enabled: true
+  Position:
+    X: 47.572796
+    "Y": 51.000000
+    Z: 15.744537
+    Level: Hub
+  PlayerName: false
+  Stats:
+    Online:
+      Name: Online
+      Lang: StatOnline
+      Enabled: false
+    FirstJoin:
+      Name: FirstJoin
+      Lang: StatFirstJoin
+      Enabled: true
+    LastJoin:
+      Name: LastJoin
+      Lang: StatLastJoin
+      Enabled: true
+    JoinCount:
+      Name: JoinCount
+      Lang: StatJoinCount
+      Enabled: true
+    KillCount:
+      Name: KillCount
+      Lang: StatKillCount
+      Enabled: true
+    DeathCount:
+      Name: DeathCount
+      Lang: StatDeathCount
+      Enabled: true
+    K/D:
+      Name: K/D
+      Lang: StatK/D
+      Enabled: true
+    KickCount:
+      Name: KickCount
+      Lang: StatKickCount
+      Enabled: true
+    OnlineTime:
+      Name: OnlineTime
+      Lang: StatOnlineTime
+      Enabled: true
+    BlockBreakCount:
+      Name: BlocksBreaked
+      Lang: StatBlockBreakCount
+      Enabled: true
+    BlockPlaceCount:
+      Name: BlocksPlaced
+      Lang: StatBlockPlaceCount
+      Enabled: true
+    ChatCount:
+      Name: ChatMessages
+      Lang: StatChatMessageCount
+      Enabled: false
+    FishCount:
+      Name: FishCount
+      Lang: StatFishCount
+      Enabled: false
+    BedEnterCount:
+      Name: EnterBedCount
+      Lang: StatBedEnterCount
+      Enabled: false
+    EatCount:
+      Name: EatCount
+      Lang: StatEatCount
+      Enabled: false
+    CraftCount:
+      Name: CraftCount
+      Lang: StatCraftCount
+      Enabled: false
+    DroppedItems:
+      Name: DroppedItems
+      Lang: StatDroppedItems
+      Enabled: false
+3:
+  Name: "3"
+  Enabled: true
+  Position:
+    X: -834.512878
+    "Y": 73.002993
+    Z: -844.506958
+    Level: sb
+  PlayerName: false
+  Stats:
+    Online:
+      Name: Online
+      Lang: StatOnline
+      Enabled: false
+    FirstJoin:
+      Name: FirstJoin
+      Lang: StatFirstJoin
+      Enabled: true
+    LastJoin:
+      Name: LastJoin
+      Lang: StatLastJoin
+      Enabled: true
+    JoinCount:
+      Name: JoinCount
+      Lang: StatJoinCount
+      Enabled: true
+    KillCount:
+      Name: KillCount
+      Lang: StatKillCount
+      Enabled: true
+    DeathCount:
+      Name: DeathCount
+      Lang: StatDeathCount
+      Enabled: true
+    K/D:
+      Name: K/D
+      Lang: StatK/D
+      Enabled: true
+    KickCount:
+      Name: KickCount
+      Lang: StatKickCount
+      Enabled: true
+    OnlineTime:
+      Name: OnlineTime
+      Lang: StatOnlineTime
+      Enabled: true
+    BlockBreakCount:
+      Name: BlocksBreaked
+      Lang: StatBlockBreakCount
+      Enabled: true
+    BlockPlaceCount:
+      Name: BlocksPlaced
+      Lang: StatBlockPlaceCount
+      Enabled: true
+    ChatCount:
+      Name: ChatMessages
+      Lang: StatChatMessageCount
+      Enabled: false
+    FishCount:
+      Name: FishCount
+      Lang: StatFishCount
+      Enabled: false
+    BedEnterCount:
+      Name: EnterBedCount
+      Lang: StatBedEnterCount
+      Enabled: false
+    EatCount:
+      Name: EatCount
+      Lang: StatEatCount
+      Enabled: false
+    CraftCount:
+      Name: CraftCount
+      Lang: StatCraftCount
+      Enabled: false
+    DroppedItems:
+      Name: DroppedItems
+      Lang: StatDroppedItems
+      Enabled: false
+...

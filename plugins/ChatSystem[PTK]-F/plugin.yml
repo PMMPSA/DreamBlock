@@ -1,0 +1,59 @@
+name: ChatSystem[PTK]
+author: PTK-KienPham
+version: 1.6
+main: PTK\ChatSystem\Main
+api: [2.0.0, 3.0.0]
+commands:
+  chatsystem:
+    description: Main command.
+    aliases: [c, chat]
+permissions:
+  chatsystem.*:
+    default: op
+    description: Allow to use every command
+    children:
+      chatsystem.clear:
+        default: op
+        description: Allow to use clear chat
+      chatsystem.enable:
+        default: op
+        description: Allow to enable chat
+      chatsystem.disable:
+        default: op
+        description: Allow to disable chat
+      chatsystem.mute:
+        default: op
+        description: Allow to mute player
+      chatsystem.timemute:
+        default: op
+        descriptiom: Allow to time mute player
+      chatsystem.unmute:
+        default: op
+        description: Allow to unmute player
+      chatsystem.unmuteall:
+        default: op
+        description: Allow to unmute all players
+      chatsystem.muted:
+        default: op
+        description: Allow to see list of muted players
+      chatsystem.words:
+        default: op
+        description: Allow to see list of blocked words
+      chatsystem.add:
+        default: op
+        description: Allow to add blocked word
+      chatsystem.remove:
+        default: op
+        description: Allow to remove blocked word
+      chatsystem.bypass:
+        default: op
+        description: Allow to bypass mute, blocked words and disabled chat
+      chatsystem.reload:
+        default: op
+        description: Allow to reload config file
+      chatsystem.info:
+        default: op
+        description: Allow to see plugin info
+      chatsystem.help:
+        default: op
+        description: Allow to see plugin help page

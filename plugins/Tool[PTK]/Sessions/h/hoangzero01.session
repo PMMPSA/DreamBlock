@@ -1,0 +1,30 @@
+{
+    "isAFK": false,
+    "isGod": false,
+    "homes": {
+        "homeg": [
+            1399.806,
+            69,
+            275.5917,
+            "sb",
+            78,
+            16
+        ],
+        "votan": [
+            1393.5406,
+            76,
+            285.3947,
+            "Shop",
+            30,
+            5
+        ]
+    },
+    "isMuted": false,
+    "mutedUntil": null,
+    "nick": null,
+    "ptCommands": false,
+    "ptChatMacros": false,
+    "isPvPEnabled": true,
+    "isUnlimitedEnabled": false,
+    "isVanished": false
+}

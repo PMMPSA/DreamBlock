@@ -1,0 +1,10 @@
+name: Qua
+main: AmGM\QT1
+version: 3.0
+author: AmGM
+api: 2.0.0
+load: POSTWORLD
+softdepend: ["EconomyAPI"]
+commands:
+    veso:
+        description: Quay

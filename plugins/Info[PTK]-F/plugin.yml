@@ -1,0 +1,68 @@
+name: Info[PTK]
+description: Thông tin của server
+author: PTK-KienPham
+version: 2.0
+main: PTK\Info\Main
+api: 2.0.0
+commands:
+ giavip:
+    description: Giá của vip
+    usage: "Sử dụng: /giavip"
+    permission: giavip
+ cachvote:
+    description: Xem Cách Vote Cho Máy Chủ
+    usage: "Sử dụng: /cachvote"
+    permission: cachvote
+ luat:
+    description: Luật của server
+    usage: "Sử dụng: /luat"
+    permission: luat
+ giapoint:
+    description: Giá mua point
+    usage: "Sử dụng: /giapoint"
+    permission: giapoint
+ helps:
+    description: Xem cach choi
+    usage: "Sử dụng: /helps"
+    permission: helps
+ giadoixu:
+    description: Giá doi xu
+    usage: "Sử dụng: /giadoixu"
+    permission: giadoixu
+ thongbao:
+    description: Thông Bao
+    usage: "Sử dụng: /thongbao"
+    permission: thongbao
+ lag:
+    description: Cách Giảm Lag
+    usage: "Sử dụng: /lag"
+    permission: lag
+ info:
+    description: Thông Tin
+    usage: "Sử dụng: /info"
+    permission: info
+ allsv:
+    description: All sv
+    usage: "Sử dụng: /allsv"
+    permission: allsv
+permissions:
+  thongbao:
+    default: true
+  cachvote:
+    default: true
+  allsv:
+    default: true
+  lag:
+    default: true
+  helps:
+    default: true
+  luat:
+    default: true
+  giavip:
+    default: true
+  giapoint:
+    default: true
+  giadoixu:
+    default: true
+  info:
+    default: true

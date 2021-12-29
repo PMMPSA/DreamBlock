@@ -1,0 +1,13 @@
+#===========================================#
+#{ONLINE} Shows the number of players online
+#{MAXONLINE} Show the number of max player online
+#{PLAYERNAME} Shows player's name
+#===========================================#
+LINE1: "§eChào Mừng Bạn Đã Đến Máy Chủ §cThe §aMysterious §6Kingdom §b{PLAYERNAME} §e!"
+LINE2: "       §eĐang Có §b{ONLINE}/{MAXONLINE} §eNgười Chơi Đang Online!"
+LINE3: "              §eSử Dụng Lệnh /khu sb Để Đến Khu SkyBlock"
+LINE4: "§eVote Cho Máy Chủ Tại https://bit.do/tmk-vote Để Nhận Nhiều Phần Quà Hấp Dẫn!"
+#Coordinates
+Xs: 84
+Ys: 54
+Zs: 15

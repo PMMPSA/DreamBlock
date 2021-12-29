@@ -1,0 +1,69 @@
+TerminatorVN Crash Dump Thu Dec 21 21:38:02 ALMT 2017
+
+Error: Can't use method return value in write context
+File: /plugins/MineLV/src/PTK/MineLevel/Main
+Line: 110
+Type: E_COMPILE_ERROR
+
+THIS CRASH WAS CAUSED BY A PLUGIN
+
+Code:
+[101]                 }
+[102]                 if (isset($args[1])) {
+[103]                     $target = $this->getServer()->getPlayer($args[1]);
+[104]                 }
+[105]                 if (!$target instanceof Player) {
+[106]                     $sender->sendMessage("§b[§cT§aᗰ§6K§b-§9LEVEL§b]§e•»§c Người Chơi Không Tồn Tại!");
+[107]                     return false;
+[108]                     $n = $this->data->get(strtolower($target->getName()));
+[109]                     $name = strtolower($target->getName());
+[110]                     $this->getCurrentLevel($target) = $args[0];
+[111]                     $n[0] = $this->getCurrentLevel($target);
+[112]                     $this->data->set(strtolower($target->getName()), $n);
+[113]                     $this->data->save();
+[114]                 }
+[115]                 return true;
+[116]             default:
+[117]                 return false;
+[118]         }
+[119]     }
+[120]     
+
+Backtrace:
+#0 (): pocketmine\Server->crashDump(boolean)
+
+TerminatorVN version: 0000000000000000000000000000000000000000 [Protocol 113; API 3.0.1]
+uname -a: Windows NT ALIKUXAC 6.3 build 9600 (Windows Server 2012 R2 Standard Edition) AMD64
+PHP version: 7.0.2
+Zend version: 3.0.0
+OS : WINNT, win
+
+Server uptime: 1 seconds
+Number of loaded worlds: 0
+Players online: 0/20
+
+Loaded plugins:
+am_PlayerSize  by emanuele0204 for API(s) 2.0.0, 2.1.0, 3.0.0APLHA1, 3.0.0
+AutoInv[PTK] 0.1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+AutoRestartSystem[PTK] 0.1 by PTK-KienPham for API(s) 1.10.0, 2.0.0, 3.0.0
+AWL[PTK] 1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+BuyEc[PTK] 3 by  for API(s) 2.0.0, 3.0.0
+ChatSystem[PTK] 1.6 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+ChatToolsPro 1.2 by paetti for API(s) 1.0.0, 2.0.0, 3.0.0, 3.0.0-ALPHA, 3.0.0-ALPHA1, 4.0.0, 5.0.0
+CommandBlocker 1.5.5 by Thunder33345 for API(s) 2.0.0
+CONSOLEChat 1.0.0 by TheNewHEROBRINE for API(s) 2.0.0
+Crates[PTK] 0.1 by PTK-KienPham for API(s) 3.0.0, 2.1.0, 2.0.0
+CustomAlerts 1.6 by EvolSoft for API(s) 1.12.0, 3.0.0
+DF[PTK] 0..1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+DonRac[PTK] 2 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+EconomyJob 2.0.4 by KienPham for API(s) 1.0.0, 2.0.0
+Feed[PTK] 1 by  for API(s) 2.0.0
+FlyText[PTK] 1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+FactionsPro 1.0 rewrite by PTK-KienPham by Array for API(s) 1.14.0, 2.0.0
+HotBar[PTK] 1.5.0 by KienPham for API(s) 1.13.0, 2.0.0
+Idea_Aro 1 by PVHB for API(s) 2.0.0
+Info[PTK] 2 by PTK-KienPham for API(s) 2.0.0
+ItemCloud 1.1 by KienPham for API(s) 1.4.0, 2.0.0
+ItemEditor[PTK] 0.1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+MagicWE 0.2.6 by thebigsmileXD for API(s) 1.13.0, 2.0.0
+ManyWorlds 2.1.0 by aliuly for API(s) 2.0.0
